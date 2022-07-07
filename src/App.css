@@ -1,38 +1,32 @@
-.App {
+#all-movies {
+  padding-left: 15px;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#amer_beau {
+  min-width: 100px;
+  min-height: 150px;
+  max-width: 100px;
+  max-height: 150px;
+  background: no-repeat center/100% url('amer_beau.jpg');
+  border: 1px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movie-info {
+  width: 500px;
+  padding-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.star-group {
+  height: 50px;
+  font-size: 28px;
+  line-height: 50px;
 }
